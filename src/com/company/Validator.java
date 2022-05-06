@@ -4,6 +4,6 @@ public class Validator {
 
 
     public boolean isEven(int number) {
-        return true;
+        return number % 2 == 0;
     }
 }
